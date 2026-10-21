@@ -8,15 +8,17 @@
 
 这次想做的是一段安静的小旅程：没有复杂的操作，让水、线条和人物的动作带着玩家往前走。游戏用 Godot 和 Java 制作，开发于 2026 年 10 月告一段落。
 
-**[下载 Windows 版](https://github.com/nmj111-ada/xianying-zhiqian/releases/latest)** · [看看开发过程](docs/development.md) · [反馈问题](https://github.com/nmj111-ada/xianying-zhiqian/issues)
+**[下载 Android 版](https://github.com/nmj111-ada/xianying-zhiqian/releases/tag/android-v1.0)** · **[下载 Windows 版](https://github.com/nmj111-ada/xianying-zhiqian/releases/tag/v1.0)** · [看看开发过程](docs/development.md) · [反馈问题](https://github.com/nmj111-ada/xianying-zhiqian/issues)
 
 ## 开始游玩
 
-在 Releases 下载 `XianyingZhiqian-Windows-v1.0.zip`，完整解压到一个文件夹，然后运行 `XianyingZhiqian.exe`。
+**Android：**下载 `XianyingZhiqian-Android-v1.0.apk`，在手机上打开并安装。需要 Android 8.0 或以上的 64 位设备，横屏游玩，用手指点击和拖动，系统返回键打开或收起暂停菜单。屏幕较长时两侧会留黑边，保留原来的画面比例。[安装与适配说明](docs/android.md)里写了更具体的步骤。
 
-请保留旁边的 `.pck`、`.dll` 和 `jvm` 文件夹，不要只把 exe 单独拿出来。压缩包已经带上运行环境，不需要另外安装 Godot 或 Java。目前提供 Windows 64 位版本。
+**Windows：**下载 `XianyingZhiqian-Windows-v1.0.zip`，完整解压到一个文件夹，然后运行 `XianyingZhiqian.exe`。
 
-主要用鼠标点击和拖拽，`Esc` 打开暂停菜单。谜题会依次出现，可以先观察画面，再试着移动、拼合或连起其中的东西。
+请保留旁边的 `.pck`、`.dll` 和 `jvm` 文件夹，不要只把 exe 单独拿出来。压缩包已经带上运行环境，不需要另外安装 Godot 或 Java。Windows 版需要 64 位系统。
+
+电脑上主要用鼠标点击和拖拽，`Esc` 打开暂停菜单。谜题会依次出现，可以先观察画面，再试着移动、拼合或连起其中的东西。
 
 ## 游戏画面
 
@@ -50,7 +52,7 @@
 
 ## 关于这个仓库
 
-这里放游戏介绍、截图、开发过程和 Windows 下载包，源码暂未公开。反馈时可以在 Issues 写下遇到的问题；如果能附上截图，以及问题发生前做了什么，会更容易找到原因。
+这里放游戏介绍、截图、开发过程，以及 Windows 和 Android 下载包，源码暂未公开。反馈时可以在 Issues 写下遇到的问题；如果能附上截图、设备型号，以及问题发生前做了什么，会更容易找到原因。
 
 游戏部分美术素材使用了生成式 AI，标题页也保留了相应标识。[素材与使用说明](docs/usage.md)中写了仓库内容的使用边界。引擎为 Godot，Java 支持来自 Godot-JVM。
 
